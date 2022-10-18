@@ -1,0 +1,68 @@
+.hero-container {
+    position: relative;
+    margin: 1.5rem 0;
+}
+
+.hero-image {
+    max-width: 100%;
+}
+
+.hero-cta {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 33%;
+}
+
+.hero-cta * {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+}
+
+.hero-cta > h1 {
+    font-size: 3vmax;
+    line-height: 3rem;
+    text-transform: uppercase;
+    padding: 0.1em 0;
+    font-weight: 900;
+}
+
+.hero-cta > p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: 0.1em 0;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+.hero-btns {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.hero-btns > a {
+    margin-right: 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    font-weight: 900;
+    padding: 0.75rem 1.5rem;
+    color: white;
+}
+
+.login-tab-hero {
+    background-color: #29A75B;
+}
+
+.news-tab-hero {
+    border: 0.1rem solid #29A75B;
+}
+
