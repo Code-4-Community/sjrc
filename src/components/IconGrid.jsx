@@ -1,11 +1,37 @@
 import React from 'react';
 import './IconGrid.css';
-// import singular Icon component here
+import icon from '../imgs/placeholder.png';
 
 const IconGrid = () => {
     return (
-        <h1 className="icon-grid-h1">Insert Icon Grid Below</h1>
+        <section id="Icon Grid" className="container">
+        <div className="container">
+            <h2>Icons</h2>
+            iconList
+        </div>
+    </section>
     )
 }
+
+const iconList = [
+    {
+        title: "Placeholder 1",
+        image: icon,
+        link: "https://google.com"
+    },
+    {
+        title: "Placeholder 2",
+        image: icon,
+        link: "https://google.com"
+    },
+    {
+        title: "Placeholder 3",
+        image: icon,
+        link: "https://google.com"
+    }
+]
+
+
+
 
 export default IconGrid;
