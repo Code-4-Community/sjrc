@@ -7,7 +7,7 @@ const IconGrid = () => {
         <section id="Icon Grid" className="container">
         <div className="container">
             <h2>Icons</h2>
-            iconList
+            <iconList />
         </div>
     </section>
     )
